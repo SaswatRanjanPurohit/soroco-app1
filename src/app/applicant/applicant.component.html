@@ -1,0 +1,30 @@
+
+                        <div class="col s12 m6 l5 offset-m3">
+                          <div class="card">
+                              <div class="card-content card-title valign-wrapper">
+                                  <i class="valign material-icons grey-text text-darken-1 left">school</i>
+                                  <span class="bold">Top Schools</span>
+                              </div>
+                              <div class="divider"></div>
+                              <div class="card-content">
+                                  <div class="section">
+                                    <table>
+                                      <thead>
+                                        <tr>
+                                            <th>Schools</th>
+                                            <th>Applicants</th>
+
+                                        </tr>
+                                      </thead>
+
+                                      <tbody>
+                                        <tr *ngFor='let school_data of top_schools_data'>
+                                          <td>{{ school_data.school }}</td>
+                                          <td>{{ school_data.applicant }}</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>

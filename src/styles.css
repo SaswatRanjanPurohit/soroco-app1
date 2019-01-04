@@ -1,0 +1,75 @@
+body{
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f1f3f6;
+}
+.nav-wrapper{
+  background: #fff;
+  color: #000;
+}
+.nav-row{
+  margin: 0;
+  line-height: 1.2;
+}
+.avator{
+  width: 50px;
+}
+.avator-image{
+      display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5px;
+}
+.avatar-name{
+  color: #000;
+}
+.dashboard-text{
+  text-align: center;
+}
+.navigation-side{
+  top: 63px;
+  background: #424242;
+  color: #fff;
+  font-size: 16px;
+  padding-top: 50px;
+}
+.navigation-side li > a,.navigation-side li > a > i.material-icons{
+  color: #fff;
+}
+.navigation-side li>a:hover{
+  border-right: 2px solid #ffea00;
+}
+.card-1-icon :hover{
+  background: #e0e0e0;
+}
+.candidtae-experience{
+  border-right: 1px solid #333;
+}
+.candidtae-experience h3,.candidtae-highlight h3{
+  font-size: 20px;
+  font-weight:700;
+  color: #0288d1;
+}
+.candidtae-experience ul,.candidtae-experience li,.candidtae-highlight ul,.candidtae-highlight li{
+  font-size: 16px;
+  list-style-type: disc !important;
+}
+
+@media only screen and (min-width: 700px) {
+  .navigation-side{
+    width: 200px;
+  }
+}
+@media only screen and (min-width: 850px) {
+  .navigation-side{
+    width: 250px;
+  }
+}
+@media only screen and (min-width: 978px) {
+  .navigation-side{
+    width: 300px;
+  }
+}
+.btn-flat i:hover{
+  background: #e0e0e0;
+}
